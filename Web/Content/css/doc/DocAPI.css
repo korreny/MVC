@@ -1,0 +1,28 @@
+﻿*{margin:0px;padding: 0px;font-family: "微软雅黑";}
+table tr:nth-child(odd){background:#F4F4F4;}
+table td:nth-child(even){color:#e97d53;}
+
+/*顶部 开始*/
+.top{width: 1300px;margin: 0 auto; height: 50px;margin:0 auto;background: #2f2f2f;border-bottom: 1px solid #080808;}
+.top p{width: 1000px;margin: 0 auto;color: #FFFFFF;line-height: 50px;}
+/*顶部 结束*/
+
+/*头部  开始*/
+.head{width: 1300px;margin: 0 auto;height:129px;margin:0 auto;}
+/*头部  结束*/
+
+
+/*内容  开始*/
+.content{width: 1100px;margin:0 auto;}
+.title{width: 1000px;height:40px;margin:20px auto;border-bottom:1px solid #EEEEEE;}
+.title p{font-size: 25px;}
+table{width:1000px;height:40px;margin:30px auto;border-collapse: collapse;}
+tr{height:40px;border:1px solid #EEEEEE;}
+td{width:284px ;border:1px solid #EEEEEE;font-size: 14px;padding-left: 16px;color: #333;}
+.trtitle{font-size: 20px;}
+/*内容  结束*/
+
+/*底部  开始*/
+/*.foot{width: 1100px;height: 170px;margin:0 auto;border: 1px solid #E5E5E5;}*/
+/*底部  结束*/
+

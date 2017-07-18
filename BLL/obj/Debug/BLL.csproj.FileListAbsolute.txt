@@ -1,0 +1,139 @@
+F:\workspace\vs\ん耀\BLL\bin\Debug\BLL.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\BLL.pdb
+F:\workspace\vs\ん耀\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\workspace\vs\ん耀\BLL\obj\Debug\BLL.dll
+F:\workspace\vs\ん耀\BLL\obj\Debug\BLL.pdb
+F:\workspace\vs\ん耀\BLL\bin\Debug\com.iflysse.helper.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\DAL.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\Model.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\iFlytek.DbAccess.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\Newtonsoft.Json.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\IKVM.OpenJDK.Core.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\jodconverter-2.2.2.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\iFlytek.Common.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\IKVM.Runtime.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\IKVM.OpenJDK.Util.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\IKVM.OpenJDK.Text.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\IKVM.Runtime.JNI.dll
+F:\workspace\vs\ん耀\BLL\bin\Debug\DAL.pdb
+F:\workspace\vs\ん耀\BLL\bin\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\ん耀\BLL\bin\Debug\Model.pdb
+F:\workspace\vs\ん耀\BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\DAL.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\Model.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\com.iflysse.helper.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\iFlytek.DbAccess.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\jodconverter-2.2.2.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\iFlytek.Common.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\IKVM.Runtime.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\Model.pdb
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\com.iflysse.helper.pdb
+C:\Users\Administrator\Desktop\ん耀\BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\ん耀\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ん耀\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator\Desktop\ん耀\BLL\obj\Debug\BLL.pdb
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\BLL.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\BLL.pdb
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\DAL.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\Model.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\com.iflysse.helper.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\iFlytek.DbAccess.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\Newtonsoft.Json.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\IKVM.OpenJDK.Core.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\jodconverter-2.2.2.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\iFlytek.Common.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\IKVM.Runtime.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\IKVM.OpenJDK.Util.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\IKVM.OpenJDK.Text.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\IKVM.Runtime.JNI.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\DAL.pdb
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\Model.pdb
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\bin\Debug\Newtonsoft.Json.xml
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\obj\Debug\BLL.dll
+F:\workspace\vs\MVC 三层 WEBAPI\BLL\obj\Debug\BLL.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\BLL.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\BLL.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\DAL.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Model.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\com.iflysse.helper.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\iFlytek.DbAccess.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Newtonsoft.Json.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.OpenJDK.Core.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\jodconverter-2.2.2.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\iFlytek.Common.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.Runtime.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.OpenJDK.Util.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.OpenJDK.Text.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.Runtime.JNI.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\DAL.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Model.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Newtonsoft.Json.xml
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\obj\Debug\BLL.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\obj\Debug\BLL.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\BLL\bin\Debug\MySql.Data.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\BLL.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\BLL.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\DAL.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Model.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\iFlytek.DbAccess.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\MySql.Data.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\jodconverter-2.2.2.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\iFlytek.Common.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.Runtime.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\DAL.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Model.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\com.iflysse.helper.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\obj\Debug\BLL.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\obj\Debug\BLL.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\log4net.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Common.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\BLL\bin\Debug\Common.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\BLL.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\BLL.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\DAL.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\Model.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\Common.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\MySql.Data.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\jodconverter-2.2.2.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\log4net.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\iFlytek.DbAccess.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\IKVM.Runtime.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\iFlytek.Common.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\DAL.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\Model.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\Common.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\bin\Debug\com.iflysse.helper.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\obj\Debug\BLL.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\BLL\obj\Debug\BLL.pdb

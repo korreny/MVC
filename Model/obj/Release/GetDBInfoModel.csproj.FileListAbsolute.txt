@@ -1,0 +1,4 @@
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\bin\Release\GetDBInfoModel.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\bin\Release\GetDBInfoModel.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\obj\Release\GetDBInfoModel.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\obj\Release\GetDBInfoModel.pdb

@@ -1,0 +1,12 @@
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Common\bin\Debug\Common.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Common\bin\Debug\Common.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Common\bin\Debug\MySql.Data.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Common\obj\Debug\Common.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Common\obj\Debug\Common.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\vae\Desktop\WEBAPI-mysql\Common\bin\Debug\Common.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Common\bin\Debug\Common.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\Common\bin\Debug\MySql.Data.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\vae\Desktop\WEBAPI-mysql\Common\obj\Debug\Common.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Common\obj\Debug\Common.pdb

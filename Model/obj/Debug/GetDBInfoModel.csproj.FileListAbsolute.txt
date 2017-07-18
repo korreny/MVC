@@ -1,0 +1,8 @@
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\bin\Debug\GetDBInfoModel.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\bin\Debug\GetDBInfoModel.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\obj\Debug\GetDBInfoModel.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Model\obj\Debug\GetDBInfoModel.pdb
+E:\IDM下载\MVC-mvcbranch\Model\bin\Debug\GetDBInfoModel.dll
+E:\IDM下载\MVC-mvcbranch\Model\bin\Debug\GetDBInfoModel.pdb
+E:\IDM下载\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.dll
+E:\IDM下载\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.pdb

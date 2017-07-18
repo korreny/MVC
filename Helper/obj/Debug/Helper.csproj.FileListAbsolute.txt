@@ -1,0 +1,123 @@
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\com.iflysse.helper.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\com.iflysse.helper.pdb
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\Aspose.Cells.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\iFlytek.BaseClass.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\iFlytek.Common.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\iFlytek.DbAccess.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.OpenJDK.Core.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.OpenJDK.Text.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.OpenJDK.Util.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.Runtime.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.Runtime.JNI.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\jodconverter-2.2.2.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\log4net.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\Newtonsoft.Json.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\Newtonsoft.Json.xml
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\obj\Debug\com.iflysse.helper.dll
+F:\IFlysse\PMS\05.Development\Source\实习管理\PMS\Helper\obj\Debug\com.iflysse.helper.pdb
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\com.iflysse.helper.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\com.iflysse.helper.pdb
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\Aspose.Cells.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\iFlytek.BaseClass.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\iFlytek.Common.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\iFlytek.DbAccess.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.OpenJDK.Core.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.OpenJDK.Text.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.OpenJDK.Util.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.Runtime.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\IKVM.Runtime.JNI.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\jodconverter-2.2.2.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\log4net.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\Newtonsoft.Json.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\bin\Debug\Newtonsoft.Json.xml
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\obj\Debug\com.iflysse.helper.dll
+D:\教育之行\PMS\05.Development\Source\实习管理\PMS\Helper\obj\Debug\com.iflysse.helper.pdb
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\com.iflysse.helper.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\com.iflysse.helper.pdb
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\Aspose.Cells.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\iFlytek.BaseClass.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\iFlytek.Common.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\iFlytek.DbAccess.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\IKVM.Runtime.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\jodconverter-2.2.2.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\log4net.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\asus\Desktop\PMS\Helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\asus\Desktop\PMS\Helper\obj\Debug\com.iflysse.helper.dll
+C:\Users\asus\Desktop\PMS\Helper\obj\Debug\com.iflysse.helper.pdb
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\com.iflysse.helper.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\com.iflysse.helper.pdb
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\Aspose.Cells.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\iFlytek.BaseClass.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\iFlytek.Common.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\iFlytek.DbAccess.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\IKVM.OpenJDK.Core.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\IKVM.OpenJDK.Text.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\IKVM.OpenJDK.Util.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\IKVM.Runtime.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\IKVM.Runtime.JNI.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\jodconverter-2.2.2.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\log4net.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\Newtonsoft.Json.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\bin\Debug\Newtonsoft.Json.xml
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\obj\Debug\com.iflysse.helper.dll
+F:\没事的时候学习\ASP\UBD MVC\PMS\Helper\obj\Debug\com.iflysse.helper.pdb
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\com.iflysse.helper.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\com.iflysse.helper.pdb
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\Aspose.Cells.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\iFlytek.BaseClass.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\iFlytek.Common.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\iFlytek.DbAccess.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\IKVM.Runtime.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\IKVM.Runtime.JNI.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\jodconverter-2.2.2.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\log4net.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\obj\Debug\com.iflysse.helper.dll
+C:\Users\asus\Desktop\宠物商城\PMS\Helper\obj\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\ん耀\Helper\bin\Debug\com.iflysse.helper.dll
+F:\workspace\vs\ん耀\Helper\bin\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\ん耀\Helper\bin\Debug\Newtonsoft.Json.xml
+F:\workspace\vs\ん耀\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+F:\workspace\vs\ん耀\Helper\obj\Debug\com.iflysse.helper.dll
+F:\workspace\vs\ん耀\Helper\obj\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\MVC 三层 WEBAPI\Helper\bin\Debug\com.iflysse.helper.dll
+F:\workspace\vs\MVC 三层 WEBAPI\Helper\bin\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\MVC 三层 WEBAPI\Helper\bin\Debug\Newtonsoft.Json.xml
+F:\workspace\vs\MVC 三层 WEBAPI\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+F:\workspace\vs\MVC 三层 WEBAPI\Helper\obj\Debug\com.iflysse.helper.dll
+F:\workspace\vs\MVC 三层 WEBAPI\Helper\obj\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\Helper\obj\Debug\com.iflysse.helper.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\Helper\obj\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\Helper\bin\Debug\com.iflysse.helper.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\Helper\bin\Debug\com.iflysse.helper.pdb
+F:\workspace\vs\MVC 三层 WEBAPI mysql\Helper\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+F:\workspace\vs\MVC 三层 WEBAPI mysql\Helper\bin\Debug\Newtonsoft.Json.xml
+F:\workspace\vs\MVC 三层 WEBAPI mysql\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Helper\bin\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Helper\bin\Debug\com.iflysse.helper.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Helper\obj\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Helper\obj\Debug\com.iflysse.helper.pdb
+C:\Users\vae\Desktop\MVC 三层 WEBAPI mysql\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\bin\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\bin\Debug\com.iflysse.helper.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\obj\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\obj\Debug\com.iflysse.helper.pdb

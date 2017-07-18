@@ -1,0 +1,10 @@
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\bin\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\bin\Debug\com.iflysse.helper.pdb
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\bin\Debug\MySql.Data.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\obj\Debug\com.iflysse.helper.dll
+C:\Users\vae\Desktop\WEBAPI-mysql\Helper\obj\Debug\com.iflysse.helper.pdb
+E:\IDM下载\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.dll
+E:\IDM下载\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.pdb
+E:\IDM下载\MVC-mvcbranch\Helper\bin\Debug\MySql.Data.dll
+E:\IDM下载\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.dll
+E:\IDM下载\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.pdb
