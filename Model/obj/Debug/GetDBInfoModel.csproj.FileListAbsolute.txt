@@ -6,3 +6,8 @@ E:\IDM下载\MVC-mvcbranch\Model\bin\Debug\GetDBInfoModel.dll
 E:\IDM下载\MVC-mvcbranch\Model\bin\Debug\GetDBInfoModel.pdb
 E:\IDM下载\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.dll
 E:\IDM下载\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.pdb
+E:\C#\MVC-mvcbranch\Model\bin\Debug\GetDBInfoModel.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\GetDBInfoModel.pdb
+E:\C#\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.csprojResolveAssemblyReference.cache
+E:\C#\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.dll
+E:\C#\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.pdb
