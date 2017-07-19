@@ -44,10 +44,45 @@ namespace GetDBInfo.Controllers
             {
                 Code = 1,
                 Msg = "Request Success!",
-                Data = list    
+                Data = list
             };
-           
+
             return _webApi;
         }
+        //public WebApi GetInfo(string account, string password)
+        //{
+        //    HwdbapiBLL hwbll = new HwdbapiBLL();
+        //    Hwdbapi hw = new Hwdbapi();
+        //    List<Hwdbapi> list = new List<Hwdbapi>();
+        //    DataTable dt = hwbll.SelectAll();
+        //    var temp = DataConvert<hwdbapiEntity>.ToList(dt);
+
+        //    GetDBInfo.BLL.UserServiceBLL userMessage = new GetDBInfo.BLL.UserServiceBLL();
+        //    GetDBInfo.Model.User user = new GetDBInfo.Model.User();
+        //    user.Account = account;
+        //    user.Password = password;
+        //    userMessage.UserLogin(user);
+
+        //    //foreach (var t in temp)
+        //    //{
+        //    //    hw = t;
+        //    //    list.Add(hw);
+        //    //}
+
+        //    List<object> objList = new List<object>();
+        //    foreach (DataRow r in dt.Rows)
+        //    {
+        //        objList.Add(r.ItemArray);
+        //        // t = r.ItemArray;
+        //    }
+        //    WebApi _webApi = new WebApi
+        //    {
+        //        Code = 1,
+        //        Msg = "Request Success!",
+        //        Data = objList
+        //    };
+
+        //    return _webApi;
+        //}
     }
 }

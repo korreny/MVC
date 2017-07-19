@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDBInfo", "Web\GetDBInfo.
 		{CD972A26-CC4C-49D0-9EBE-D51CD2776278} = {CD972A26-CC4C-49D0-9EBE-D51CD2776278}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDBInfoCommon", "GetDBInfoCommon\GetDBInfoCommon.csproj", "{12659723-8F33-4DD7-9C71-C0D91F6E68FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{9A44ECA1-8106-466B-8847-AE316FE23C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A44ECA1-8106-466B-8847-AE316FE23C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A44ECA1-8106-466B-8847-AE316FE23C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12659723-8F33-4DD7-9C71-C0D91F6E68FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12659723-8F33-4DD7-9C71-C0D91F6E68FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12659723-8F33-4DD7-9C71-C0D91F6E68FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12659723-8F33-4DD7-9C71-C0D91F6E68FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

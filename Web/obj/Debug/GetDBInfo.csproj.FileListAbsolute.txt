@@ -211,3 +211,5 @@ E:\C#\MVC-mvcbranch\Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
 E:\C#\MVC-mvcbranch\Web\obj\Debug\GetDBInfo.csprojResolveAssemblyReference.cache
 E:\C#\MVC-mvcbranch\Web\obj\Debug\GetDBInfo.dll
 E:\C#\MVC-mvcbranch\Web\obj\Debug\GetDBInfo.pdb
+E:\C#\MVC-mvcbranch\Web\bin\GetDBInfoCommon.dll
+E:\C#\MVC-mvcbranch\Web\bin\GetDBInfoCommon.pdb

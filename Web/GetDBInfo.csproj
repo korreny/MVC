@@ -278,6 +278,10 @@
       <Project>{e7c9a14e-3aff-4820-9b61-175c686e952f}</Project>
       <Name>GetDBInfoBLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GetDBInfoCommon\GetDBInfoCommon.csproj">
+      <Project>{12659723-8f33-4dd7-9c71-c0d91f6e68fe}</Project>
+      <Name>GetDBInfoCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Helper\GetDBInfoHelper.csproj">
       <Project>{71ce8922-f96c-4aef-bfe6-40ddfbab2706}</Project>
       <Name>GetDBInfoHelper</Name>

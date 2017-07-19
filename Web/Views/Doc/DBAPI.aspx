@@ -9,12 +9,12 @@
     <link href="../../Content/css/doc/DocAPI.css" rel="stylesheet" />
     <script src="../../Scripts/jquery-1.7.1.min.js"></script>
     <title>作业平台数据库说明文档</title>
-    <script>
+    <%--<script>
         $(
             function(){
                 alert("OK");
             });
-    </script>
+    </script>--%>
 </head>
 <body>
     <form id="form1" runat="server">
