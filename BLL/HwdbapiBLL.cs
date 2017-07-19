@@ -17,6 +17,7 @@ namespace GetDBInfo.BLL
     public class HwdbapiBLL
     {
         HwdbapiDAL hwdal = new HwdbapiDAL();
+
         //public int? CheckStatu()
         //{
         /// <summary>
@@ -39,7 +40,16 @@ namespace GetDBInfo.BLL
             }
             return hwdal.SQL(sql);
         }
-        //}
+
+        /// <summary>
+        /// 获取表中所有的数据
+        /// </summary>
+        /// <returns></returns>
+        public DataTable SelectAll()
+        {
+            return hwdal.SelectAll();
+        }
+
         /// <summary>
         /// 向表中插入数据
         /// </summary>
@@ -49,6 +59,11 @@ namespace GetDBInfo.BLL
         {
             return hwdal.Insert(table);
         }
+        /// <summary>
+        /// 获取表
+        /// </summary>
+        /// <param name="tableName"></param>
+        /// <returns></returns>
         public DataTable GetTableType(string tableName)
         {
             return hwdal.GetTableType(tableName);

@@ -12,7 +12,7 @@ using System.Configuration;
 using System.Data;
 using System.Text.RegularExpressions;
 
-namespace GetDBInfo.Controllers
+namespace GetDBInfo.Controllers        
 {
     public class HomeController : Controller
     {

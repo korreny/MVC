@@ -26,7 +26,7 @@ namespace GetDBInfo.DAL
         /// <returns></returns>
         public User UserLogin(User User)
         {
-            string sql = string.Format("select user_nickname from user where user_account='{0}' and user_password='{1}'",
+            string sql = string.Format("select user_nickname from user ",
                 User.Account, User.Password);
 
             //Get information from database

@@ -25,6 +25,24 @@ namespace GetDBInfo.DAL
         DBHeper sqlserver = new DBHeper(ConnectionString);
         //string outTableName;//= ConfigurationManager.AppSettings["ResultTableName"];
 
+        public DataTable SelectAll()
+        {
+            string sql = string.Format(@"select * from {0}", ConfigurationManager.AppSettings["ResultTableName"]);
+            if (Convert.ToInt32(ConfigurationManager.AppSettings["ResultDBType"]) == 1)
+            {
+                return sqlserver.Select(sql);
+            }
+            else
+            {
+                try
+                {
+                    return mysql.Query(sql);
+                }
+                catch (Exception e)
+                {
+                    return null;
+                }
+            }
         /// <summary>
         /// 插入
         /// </summary>
