@@ -168,7 +168,6 @@ E:\C#\MVC-mvcbranch\Web\bin\WebGrease.dll
 E:\C#\MVC-mvcbranch\Web\bin\GetDBInfoDAL.dll
 E:\C#\MVC-mvcbranch\Web\bin\jodconverter-2.2.2.dll
 E:\C#\MVC-mvcbranch\Web\bin\IKVM.OpenJDK.Core.dll
-E:\C#\MVC-mvcbranch\Web\bin\MySql.Data.dll
 E:\C#\MVC-mvcbranch\Web\bin\log4net.dll
 E:\C#\MVC-mvcbranch\Web\bin\iFlytek.DbAccess.dll
 E:\C#\MVC-mvcbranch\Web\bin\ICSharpCode.SharpZipLib.dll
@@ -213,3 +212,4 @@ E:\C#\MVC-mvcbranch\Web\obj\Debug\GetDBInfo.dll
 E:\C#\MVC-mvcbranch\Web\obj\Debug\GetDBInfo.pdb
 E:\C#\MVC-mvcbranch\Web\bin\GetDBInfoCommon.dll
 E:\C#\MVC-mvcbranch\Web\bin\GetDBInfoCommon.pdb
+E:\C#\MVC-mvcbranch\Web\bin\MySql.Data.dll

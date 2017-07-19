@@ -9,6 +9,7 @@ using System.Text.RegularExpressions;
 using com.iflysse.helper;
 using GetDBInfo.Model;
 using GetDBInfo.BLL;
+using System.Windows.Forms;
 
 namespace GetDBInfo.Common
 {
@@ -43,7 +44,8 @@ namespace GetDBInfo.Common
 
             if (DateTime.Now.ToString("HH:mm:ss") == StratTime)
             {
-
+                DateTime startTime = DateTime.Now;
+                ProMaintain.Writelog(DateTime.Now + "\r\n开始处理表" );
                 //记录表中最大的tid
                 int maxtid = 0;
 
@@ -52,7 +54,6 @@ namespace GetDBInfo.Common
                 DBInfoBLL.dbinfo = dbinfo;
                 DBInfoBLL dbbll = new DBInfoBLL(dbinfo);
                 HwdbapiBLL hwbll = new HwdbapiBLL();
-
                 //判断表的状态
                 DataTable dt = hwbll.GetTableType(ConfigurationManager.AppSettings["ResultTableName"]);
 
@@ -72,6 +73,8 @@ namespace GetDBInfo.Common
                             //创建表
                             // 1修改配置文件
                             AppConfigHelper.ModifyAppSettings("ResultTableName", ConfigurationManager.AppSettings["ResultTableName"] + "_bak");
+                            ProMaintain.ChangeConfiguration("ResultTableName", ConfigurationManager.AppSettings["ResultTableName"]);
+                            ProMaintain.Writelog(DateTime.Now + "\r\n输出的表字段有误,创建表:" + ConfigurationManager.AppSettings["ResultTableName"]);
                             hwbll.CreateTable(ConfigurationManager.AppSettings["ResultTableName"]);
                             break;
                         }
@@ -79,12 +82,14 @@ namespace GetDBInfo.Common
                 }
                 catch (System.NullReferenceException ex)
                 {
+                    ProMaintain.Writelog(DateTime.Now + "\r\n输出的表不存在,创建表:" + ConfigurationManager.AppSettings["ResultTableName"]);
                     hwbll.CreateTable(ConfigurationManager.AppSettings["ResultTableName"]);
                 }
                 try
                 {
                     if (dt.Rows.Count == 0)
                     {
+                        ProMaintain.Writelog(DateTime.Now + "\r\n输出的表不存在,创建表:" + ConfigurationManager.AppSettings["ResultTableName"]);
                         hwbll.CreateTable(ConfigurationManager.AppSettings["ResultTableName"]);
                     }
                 }
@@ -105,6 +110,7 @@ namespace GetDBInfo.Common
 
                 if (tables == null)
                 {
+                    ProMaintain.Writelog(DateTime.Now + "\r\n指定数据库不存在,处理失败");
                     //数据库不存在
                     return;
                 }
@@ -169,11 +175,20 @@ namespace GetDBInfo.Common
                         //在datetable用已经删除
                         //直接忽略
                     }
+               
                 }
+                //结束时间
+                DateTime endTime = DateTime.Now;
+
+                System.TimeSpan t3 = endTime - startTime;
+                double getSeconds = t3.TotalSeconds;
+                ProMaintain.Writelog("本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"]);
+                MessageBox.Show("OK");
+
             }
+        
+        }
 
-        }   
 
-     
     } 
 }
