@@ -52,7 +52,7 @@ namespace WebAPI.Controllers
         //GET api/User/?username=xx
         public WebApi GetUserByName(string account,string password)
         {
-            GetDBInfo.BLL.UserMessager userMessage = new GetDBInfo.BLL.UserMessager();
+            GetDBInfo.BLL.UserServiceBLL userMessage = new GetDBInfo.BLL.UserServiceBLL();
             GetDBInfo.Model.User user = new GetDBInfo.Model.User();
             user.Account = account;
             user.Password = password;

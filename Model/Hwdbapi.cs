@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using GetDBInfo.DataMap.ORM.Entity;
 namespace GetDBInfo.Model
 {
     public class Hwdbapi
@@ -208,6 +208,34 @@ namespace GetDBInfo.Model
         {
             set { _submittime = value; }
             get { return _submittime; }
+        }
+
+        public static implicit operator Hwdbapi(GetDBInfo.DataMap.ORM.Entity.hwdbapiEntity v)
+        {
+            Hwdbapi t = new Hwdbapi();
+            t.AuditorId = v.AuditorId;
+            t.AuditorIp = v.AuditorIp;
+            t.AuditorMac = v.AuditorMac;
+            t.AuditorName = v.AuditorName;
+            t.CnTableName = v.CnTableName;
+            t.CreateTime = v.CreateTime;
+            t.EnTableName = v.EnTableName;
+            t.Field = v.Fieldv;
+            t.Id = v.Id;
+            t.IsDelete = v.IsDelete;
+            t.IsPass = v.IsPass;
+            t.Name = v.Name;
+            t.PassTime = v.PassTime;
+            t.Remark = v.Remark;
+            t.ReviseTime = v.ReviseTime;
+            t.SubmitterId = v.SubmitterId;
+            t.SubmitterIp = v.SubmitterIp;
+            t.SubmitterMac = v.SubmitterMac;
+            t.SubmitterName = v.SubmitterName;
+            t.SubmitTime = v.SubmitTime;
+            t.Tableid = v.Tableid;
+            t.Type = v.Type;
+            return t;
         }
         #endregion Model
 

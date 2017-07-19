@@ -11,6 +11,5 @@ E:\IDM下载\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.pdb
 E:\C#\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.dll
 E:\C#\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.pdb
 E:\C#\MVC-mvcbranch\Helper\bin\Debug\MySql.Data.dll
-E:\C#\MVC-mvcbranch\Helper\obj\Debug\GetDBInfoHelper.csprojResolveAssemblyReference.cache
 E:\C#\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.dll
 E:\C#\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.pdb

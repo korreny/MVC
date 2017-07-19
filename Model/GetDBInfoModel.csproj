@@ -50,6 +50,12 @@
     <Compile Include="Vip.cs" />
     <Compile Include="WebApi.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helper\GetDBInfoHelper.csproj">
+      <Project>{71ce8922-f96c-4aef-bfe6-40ddfbab2706}</Project>
+      <Name>GetDBInfoHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

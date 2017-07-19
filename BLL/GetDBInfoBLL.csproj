@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="DBInfoBLL.cs" />
     <Compile Include="HwdbapiBLL.cs" />
-    <Compile Include="UserMessager.cs" />
+    <Compile Include="UserServiceBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

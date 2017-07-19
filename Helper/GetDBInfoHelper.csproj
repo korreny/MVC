@@ -99,6 +99,10 @@
     <Compile Include="AppConfigHelper.cs" />
     <Compile Include="ChineseHelper.cs" />
     <Compile Include="ConfigHelper.cs" />
+    <Compile Include="datamap\DataConvert.cs" />
+    <Compile Include="datamap\DataEntityBase.cs" />
+    <Compile Include="datamap\DataFieldAttribute.cs" />
+    <Compile Include="datamap\hwdbapiEntity.cs" />
     <Compile Include="DateTimeHelper.cs" />
     <Compile Include="DBHeperEx.cs" />
     <Compile Include="EncryptHelper.cs" />

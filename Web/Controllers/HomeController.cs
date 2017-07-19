@@ -34,7 +34,7 @@ namespace GetDBInfo.Controllers
             };
 
             //【2】Business processing (call the background model, the realization of user information judgment)
-            user = new UserMessager().UserLogin(user);
+            user = new UserServiceBLL().UserLogin(user);
 
             //【3】Return data (view, controller, others...) (jump)
             if (user.Nickname != null)
@@ -49,7 +49,7 @@ namespace GetDBInfo.Controllers
             }
             return View("UserLogin");
         }
-
+        #region 处理函数
         public void Check()
         {
             //记录表中最大的tid
@@ -184,7 +184,7 @@ namespace GetDBInfo.Controllers
             #endregion
 
         }
-
+        #endregion
     }
-    
+
 }

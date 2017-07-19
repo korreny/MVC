@@ -11,3 +11,17 @@ E:\C#\MVC-mvcbranch\Model\bin\Debug\GetDBInfoModel.pdb
 E:\C#\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.csprojResolveAssemblyReference.cache
 E:\C#\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.dll
 E:\C#\MVC-mvcbranch\Model\obj\Debug\GetDBInfoModel.pdb
+E:\C#\MVC-mvcbranch\Model\bin\Debug\com.iflysse.helper.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\jodconverter-2.2.2.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\IKVM.OpenJDK.Core.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\MySql.Data.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\log4net.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\iFlytek.DbAccess.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\Newtonsoft.Json.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\IKVM.Runtime.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\IKVM.OpenJDK.Util.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\IKVM.Runtime.JNI.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\IKVM.OpenJDK.Text.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\iFlytek.Common.dll
+E:\C#\MVC-mvcbranch\Model\bin\Debug\com.iflysse.helper.pdb

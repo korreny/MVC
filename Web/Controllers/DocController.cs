@@ -15,8 +15,5 @@ namespace GetDBInfo.Controllers
         {
             return View("DBAPI");
         }
-
-      
-
     }
 }

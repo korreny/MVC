@@ -50,7 +50,7 @@
   <ItemGroup>
     <Compile Include="DBinfoDAL.cs" />
     <Compile Include="HwdbapiDAL.cs" />
-    <Compile Include="UserService.cs" />
+    <Compile Include="UserServiceDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
