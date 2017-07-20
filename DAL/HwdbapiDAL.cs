@@ -128,7 +128,6 @@ namespace GetDBInfo.DAL
                 //System.Data.DataTable dt = conn.GetSchema("Tables", null);
                 conn.Close();
                 return res;
-
             }
             else
             {
@@ -153,7 +152,6 @@ namespace GetDBInfo.DAL
                 return res;
             }
         }
-
 
         /// <summary>
         /// 更新数据

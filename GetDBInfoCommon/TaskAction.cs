@@ -45,7 +45,7 @@ namespace GetDBInfo.Common
             if (DateTime.Now.ToString("HH:mm:ss") == StratTime)
             {
                 DateTime startTime = DateTime.Now;
-                ProMaintain.Writelog("===========================================================\r\n" + DateTime.Now + "\r\n开始处理表");
+                ProMaintain.Writelog("===========================================================" );
                 //记录表中最大的tid
                 int maxtid = 0;
 
@@ -114,11 +114,7 @@ namespace GetDBInfo.Common
                     //数据库不存在
                     //return;
                 }
-                if(tables == null)
-                {
-                    ProMaintain.Writelog(DateTime.Now + "\r\n指定的输入数据库有误,处理失败");
-                    return;
-                }
+
                 //设置超过50张表就分进度写日志
                 int outflage = -1;
                 int CurCount = 0;
@@ -127,6 +123,9 @@ namespace GetDBInfo.Common
                     outflage = 0;
                 }
                 int tableCount = tables.Rows.Count;
+
+                //开始处理表
+                ProMaintain.Writelog(DateTime.Now + "\r\n开始处理表");
                 for (int i = 0; i < tables.Rows.Count; i++)
                 {
                     CurCount++;
@@ -136,7 +135,7 @@ namespace GetDBInfo.Common
                         {
                             outflage = 0;
                             double percent = (double)CurCount / tables.Rows.Count;
-                            ProMaintain.Writelog("共" + tableCount + "张表,已经处理" + percent.ToString("0.0%") + "剩余" + (tableCount - CurCount).ToString() + "张表");
+                            ProMaintain.Writelog(DateTime.Now+"共" + tableCount + "张表,已经处理" + percent.ToString("0.0%") + "剩余" + (tableCount - CurCount).ToString() + "张表");
                         }
                     }
                     hwbll.SetDel(tables.Rows[i][2].ToString());
@@ -209,7 +208,7 @@ namespace GetDBInfo.Common
 
                 System.TimeSpan t3 = endTime - startTime;
                 double getSeconds = t3.TotalSeconds;
-                ProMaintain.Writelog("共"+tableCount+"张表,已处理100%\r\n"+"本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"]);
+                ProMaintain.Writelog(DateTime.Now+"共"+tableCount+"张表,已处理100%\r\n"+"本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"]);
                 if (SendMeail.SendMsg("处理完成,本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"])==1)
                 {
                     ProMaintain.Writelog("已经发送邮件");
