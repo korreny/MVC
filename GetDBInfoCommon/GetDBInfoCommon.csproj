@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ProMaintain.cs" />
+    <Compile Include="SendMeail.cs" />
     <Compile Include="TaskAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

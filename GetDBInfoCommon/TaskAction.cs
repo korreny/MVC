@@ -45,7 +45,7 @@ namespace GetDBInfo.Common
             if (DateTime.Now.ToString("HH:mm:ss") == StratTime)
             {
                 DateTime startTime = DateTime.Now;
-                ProMaintain.Writelog(DateTime.Now + "\r\n开始处理表" );
+                ProMaintain.Writelog("===========================================================\r\n" + DateTime.Now + "\r\n开始处理表");
                 //记录表中最大的tid
                 int maxtid = 0;
 
@@ -89,7 +89,7 @@ namespace GetDBInfo.Common
                 {
                     if (dt.Rows.Count == 0)
                     {
-                        ProMaintain.Writelog(DateTime.Now + "\r\n输出的表不存在,创建表:" + ConfigurationManager.AppSettings["ResultTableName"]);
+                        ProMaintain.Writelog(DateTime.Now + "\r\n输出的表不存在,创建表1:" + ConfigurationManager.AppSettings["ResultTableName"]);
                         hwbll.CreateTable(ConfigurationManager.AppSettings["ResultTableName"]);
                     }
                 }
@@ -110,13 +110,35 @@ namespace GetDBInfo.Common
 
                 if (tables == null)
                 {
-                    ProMaintain.Writelog(DateTime.Now + "\r\n指定数据库不存在,处理失败");
+                    ProMaintain.Writelog(DateTime.Now + "\r\n数据连接失败,正在重新获取...");
                     //数据库不存在
+                    //return;
+                }
+                if(tables == null)
+                {
+                    ProMaintain.Writelog(DateTime.Now + "\r\n指定的输入数据库有误,处理失败");
                     return;
                 }
+                //设置超过50张表就分进度写日志
+                int outflage = -1;
+                int CurCount = 0;
+                if (tables.Rows.Count > 50)
+                {
+                    outflage = 0;
+                }
+                int tableCount = tables.Rows.Count;
                 for (int i = 0; i < tables.Rows.Count; i++)
                 {
-
+                    CurCount++;
+                    if (outflage > -1)
+                    {
+                        if (50 / ++outflage == 0)
+                        {
+                            outflage = 0;
+                            double percent = (double)CurCount / tables.Rows.Count;
+                            ProMaintain.Writelog("共" + tableCount + "张表,已经处理" + percent.ToString("0.0%") + "剩余" + (tableCount - CurCount).ToString() + "张表");
+                        }
+                    }
                     hwbll.SetDel(tables.Rows[i][2].ToString());
 
                     //判断是否有格式如:tablename11,tablename12的表名
@@ -141,54 +163,64 @@ namespace GetDBInfo.Common
 
                     DataTable tableType = dbbll.GetTableType(tables.Rows[i][2].ToString());
                     //遍历表
-                    for (int j = 0; j < tableType.Rows.Count; j++)
-                    {
-                        hwdbapi.EnTableName = tables.Rows[i][2].ToString();
-                        hwdbapi.Field = tableType.Rows[j][0].ToString();
-                        hwdbapi.Type = tableType.Rows[j][1].ToString();
-                        hwdbapi.Tableid = tid;
-                        hwdbapi.ReviseTime = null;
-                        hwdbapi.IsDelete = 0;
-                        int? res = hwbll.UpDate(hwdbapi);
-                        if (res == 0 || res == null)
-                        {
-                            //获取当前表的id
-                            try
-                            {
-                                hwdbapi.Tableid = Convert.ToInt32(hwbll.SelectBytid(tables.Rows[i][2].ToString()).Rows[0][0].ToString());
-                            }
-                            catch (Exception ex)
-                            {
-                                //当获取出错的时候,就是数据库中没有的表
-                            }
-                            hwdbapi.CreateTime = DateTime.Now;
-                            hwbll.Insert(hwdbapi);
-                        }
-                    }
                     try
                     {
-                        //处理完成
-                    }
-                    catch (Exception ex)
+                        for (int j = 0; j < tableType.Rows.Count; j++)
+                        {
+                            hwdbapi.EnTableName = tables.Rows[i][2].ToString();
+                            hwdbapi.Field = tableType.Rows[j][0].ToString();
+                            hwdbapi.Type = tableType.Rows[j][1].ToString();
+                            hwdbapi.Tableid = tid;
+                            hwdbapi.ReviseTime = null;
+                            hwdbapi.IsDelete = 0;
+                            int? res = hwbll.UpDate(hwdbapi);
+                            if (res == 0 || res == null)
+                            {
+                                //获取当前表的id
+                                try
+                                {
+                                    hwdbapi.Tableid = Convert.ToInt32(hwbll.SelectBytid(tables.Rows[i][2].ToString()).Rows[0][0].ToString());
+                                }
+                                catch (Exception ex)
+                                {
+                                    //当获取出错的时候,就是数据库中没有的表
+                                }
+                                hwdbapi.CreateTime = DateTime.Now;
+                                hwbll.Insert(hwdbapi);
+                            }
+                        }
+                        try
+                        {
+                            //处理完成
+                        }
+                        catch (Exception ex)
+                        {
+                            break;
+                            //在datetable用已经删除
+                            //直接忽略
+                        }
+                    }catch(System.NullReferenceException ex)
                     {
-                        break;
-                        //在datetable用已经删除
-                        //直接忽略
+                        ProMaintain.Writelog("表" + tables.Rows[i][2].ToString() + "处理异常,可能表中不存在数据");
                     }
-               
                 }
                 //结束时间
                 DateTime endTime = DateTime.Now;
 
                 System.TimeSpan t3 = endTime - startTime;
                 double getSeconds = t3.TotalSeconds;
-                ProMaintain.Writelog("本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"]);
-                MessageBox.Show("OK");
+                ProMaintain.Writelog("共"+tableCount+"张表,已处理100%\r\n"+"本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"]);
+                if (SendMeail.SendMsg("处理完成,本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"])==1)
+                {
+                    ProMaintain.Writelog("已经发送邮件");
+                }else
+                {
+                    ProMaintain.Writelog("邮件发送失败");
+                }
 
             }
-        
+
         }
 
-
-    } 
+    }
 }

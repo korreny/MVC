@@ -59,14 +59,14 @@ namespace GetDBInfo.DAL
                 }
                 catch (MySql.Data.MySqlClient.MySqlException e)
                 {
-
-                    //Console.WriteLine("数据库连接失败,按任意键退出...");
-                    //Console.Read();
                     return null;
                 }
-                System.Data.DataTable dt = conn.GetSchema("Tables", null);
-                conn.Close();
-                return dt;
+              
+                    System.Data.DataTable dt = conn.GetSchema("Tables", null);
+                    conn.Close();
+                    return dt;
+               
+              
             }
         }
         /// <summary>
@@ -115,12 +115,18 @@ namespace GetDBInfo.DAL
                     return null;
                 }
                 string temp = string.Format(@"select TABLE_NAME from information_schema.tables where TABLE_SCHEMA='{0}' and TABLE_NAME= '{1}'", ConfigurationManager.AppSettings["DBName"], tableName);
-
-                MySqlDataAdapter adaper = new MySqlDataAdapter("select column_name,data_type from information_schema.columns where table_name in(" + temp + ")", conn);
-                System.Data.DataTable res = new System.Data.DataTable();
-                adaper.Fill(res);
-                conn.Close();
-                return res;
+                try
+                {
+                    MySqlDataAdapter adaper = new MySqlDataAdapter("select column_name,data_type from information_schema.columns where table_name in(" + temp + ")", conn);
+                    System.Data.DataTable res = new System.Data.DataTable();
+                    adaper.Fill(res);
+                    conn.Close();
+                    return res;
+                }catch(MySql.Data.MySqlClient.MySqlException e)
+                {
+                    return null;
+                }
+               
             }
         }
 
