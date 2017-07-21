@@ -85,11 +85,8 @@ namespace GetDBInfo.DAL
                 }
                 catch (System.Data.SqlClient.SqlException e)
                 {
-                    // Console.WriteLine("数据库连接失败,按任意键退出...");
-                    // Console.Read();
                     return null;
                 }
-                // string temp = string.Format(@"select TABLE_NAME from information_schema.tables where TABLE_SCHEMA='{0}' and TABLE_NAME= '{1}'", ConfigurationManager.AppSettings["DBName"], ConfigurationManager.AppSettings["ResultTableName"]);
 
                 SqlCommand com = new SqlCommand("select column_name, data_type from information_schema.columns where table_name = '" + tableName + "'", conn);
                 SqlDataAdapter adaper = new SqlDataAdapter(com);

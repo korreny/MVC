@@ -19,20 +19,20 @@ namespace GetDBInfo.Model
         private string _type;
         private string _name;
         private string _remark;
-        private DateTime? _createtime;
-        private DateTime? _revisetime;
+        private string _createtime;
+        private string _revisetime;
         private int? _ispass;
         private int? _isdelete;
         private int? _auditorid;
         private string _auditorname;
         private string _auditorip;
         private string _auditormac;
-        private DateTime? _passtime;
+        private string _passtime;
         private int? _submitterid;
         private string _submittername;
         private string _submitterip;
         private string _submittermac;
-        private DateTime? _submittime;
+        private string _submittime;
         /// <summary>
         /// auto_increment
         /// </summary>
@@ -100,7 +100,7 @@ namespace GetDBInfo.Model
         /// <summary>
         /// 
         /// </summary>
-        public DateTime? CreateTime
+        public string CreateTime
         {
             set { _createtime = value; }
             get { return _createtime; }
@@ -108,7 +108,7 @@ namespace GetDBInfo.Model
         /// <summary>
         /// 
         /// </summary>
-        public DateTime? ReviseTime
+        public string ReviseTime
         {
             set { _revisetime = value; }
             get { return _revisetime; }
@@ -164,7 +164,7 @@ namespace GetDBInfo.Model
         /// <summary>
         /// 
         /// </summary>
-        public DateTime? PassTime
+        public string PassTime
         {
             set { _passtime = value; }
             get { return _passtime; }
@@ -204,7 +204,7 @@ namespace GetDBInfo.Model
         /// <summary>
         /// 
         /// </summary>
-        public DateTime? SubmitTime
+        public string SubmitTime
         {
             set { _submittime = value; }
             get { return _submittime; }

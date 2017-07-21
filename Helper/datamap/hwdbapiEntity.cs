@@ -9,11 +9,11 @@ namespace GetDBInfo.DataMap.ORM.Entity
     [Serializable]
     public class hwdbapiEntity: DataEntityBase
     {
-        [DataField("id")]
+        [DataField("Id")]
         public int Id { set; get; }
 
-        [DataField("Tableid")]
-        public int? Tableid { set; get; }
+        [DataField("TableId")]
+        public int Tableid { set; get; }
 
         [DataField("EnTableName")]
         public string EnTableName { set; get; }
@@ -21,7 +21,7 @@ namespace GetDBInfo.DataMap.ORM.Entity
         [DataField("CnTableName")]
         public string CnTableName { set; get; }
 
-        [DataField("Fieldv")]
+        [DataField("Field")]
         public string Fieldv { set; get; }
 
         [DataField("Type")]
@@ -34,19 +34,19 @@ namespace GetDBInfo.DataMap.ORM.Entity
         public string Remark { set; get; }
 
         [DataField("CreateTime")]
-        public DateTime? CreateTime { set; get; }
+        public string CreateTime { set; get; }
 
         [DataField("ReviseTime")]
-        public DateTime? ReviseTime { set; get; }
+        public string ReviseTime { set; get; }
 
         [DataField("IsPass")]
-        public int? IsPass { set; get; }
+        public int IsPass { set; get; }
 
         [DataField("IsDelete")]
-        public int? IsDelete { set; get; }
+        public int IsDelete { set; get; }
 
         [DataField("AuditorId")]
-        public int? AuditorId { set; get; }
+        public int AuditorId { set; get; }
 
         [DataField("AuditorName")]
         public string AuditorName { set; get; }
@@ -58,10 +58,10 @@ namespace GetDBInfo.DataMap.ORM.Entity
         public string AuditorMac { set; get; }
 
         [DataField("PassTime")]
-        public DateTime? PassTime { set; get; }
+        public string PassTime { set; get; }
 
         [DataField("SubmitterId")]
-        public int? SubmitterId { set; get; }
+        public int SubmitterId { set; get; }
 
         [DataField("SubmitterName")]
         public string SubmitterName { set; get; }
@@ -73,7 +73,7 @@ namespace GetDBInfo.DataMap.ORM.Entity
         public string SubmitterMac { set; get; }
 
         [DataField("SubmitTime")]
-        public DateTime? SubmitTime { set; get; }
+        public string SubmitTime { set; get; }
 
     }
 }

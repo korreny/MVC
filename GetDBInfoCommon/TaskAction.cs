@@ -89,12 +89,14 @@ namespace GetDBInfo.Common
                 {
                     if (dt.Rows.Count == 0)
                     {
-                        ProMaintain.Writelog(DateTime.Now + "\r\n输出的表不存在,创建表1:" + ConfigurationManager.AppSettings["ResultTableName"]);
+                        ProMaintain.Writelog(DateTime.Now + "\r\n输出的表不存在,创建表:" + ConfigurationManager.AppSettings["ResultTableName"]);
                         hwbll.CreateTable(ConfigurationManager.AppSettings["ResultTableName"]);
                     }
                 }
                 catch (System.NullReferenceException ex)
                 {
+                    ProMaintain.Writelog(DateTime.Now + "创建表失败,本次终止");
+                    return;
                 }
                 try
                 {
@@ -184,7 +186,7 @@ namespace GetDBInfo.Common
                                 {
                                     //当获取出错的时候,就是数据库中没有的表
                                 }
-                                hwdbapi.CreateTime = DateTime.Now;
+                                hwdbapi.CreateTime = DateToString.Tostr(DateTime.Now);
                                 hwbll.Insert(hwdbapi);
                             }
                         }
@@ -209,10 +211,11 @@ namespace GetDBInfo.Common
                 System.TimeSpan t3 = endTime - startTime;
                 double getSeconds = t3.TotalSeconds;
                 ProMaintain.Writelog(DateTime.Now+"共"+tableCount+"张表,已处理100%\r\n"+"本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"]);
-                if (SendMeail.SendMsg("处理完成,本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"])==1)
+                if (SendMeail.SendMsg("处理完成,本次执行完毕,本次耗时" + getSeconds.ToString("0.000") + "秒 系统将在下次" + ConfigurationManager.AppSettings["StartTime"]) == 1)
                 {
                     ProMaintain.Writelog("已经发送邮件");
-                }else
+                }
+                else
                 {
                     ProMaintain.Writelog("邮件发送失败");
                 }

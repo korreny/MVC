@@ -81,7 +81,7 @@
     </Reference>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\获取数据库信息\GetDBInfoCommon\bin\Debug\MySql.Data.dll</HintPath>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\DLL\Newtonsoft.Json.6.0.4\net40\Newtonsoft.Json.dll</HintPath>
@@ -104,6 +104,7 @@
     <Compile Include="datamap\DataFieldAttribute.cs" />
     <Compile Include="datamap\hwdbapiEntity.cs" />
     <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="DateToString.cs" />
     <Compile Include="DBHeperEx.cs" />
     <Compile Include="EncryptHelper.cs" />
     <Compile Include="EnumHelper.cs" />

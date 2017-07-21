@@ -35,7 +35,7 @@ namespace GetDBInfo.BLL
             }
             else
             {
-                sql = string.Format("CREATE TABLE `{0}` (`Id` int(11) NOT NULL AUTO_INCREMENT,`TableId` int(11) DEFAULT NULL,`EnTableName` varchar(255) DEFAULT NULL,`CnTableName` varchar(255) DEFAULT NULL,`Field` varchar(255) DEFAULT NULL,`Type` varchar(255) DEFAULT NULL,`Name` varchar(255) DEFAULT NULL,`Remark` varchar(255) DEFAULT NULL,`CreateTime` datetime DEFAULT NULL,`ReviseTime` datetime DEFAULT NULL,`IsPass` int(255) DEFAULT '0',`IsDelete` int(255) DEFAULT NULL,`AuditorId` int(255) DEFAULT NULL,`AuditorName` varchar(255) DEFAULT NULL,`AuditorIp` varchar(255) DEFAULT NULL,`AuditorMac` varchar(255) DEFAULT NULL,`PassTime` datetime DEFAULT NULL,`SubmitterId` int(255) DEFAULT NULL,`SubmitterName` varchar(255) DEFAULT NULL,`SubmitterIp` varchar(255) DEFAULT NULL,`SubmitterMac` varchar(255) DEFAULT NULL,`SubmitTime` datetime DEFAULT NULL,PRIMARY KEY (`Id`)) ENGINE=MyISAM AUTO_INCREMENT=4681 DEFAULT CHARSET=gbk;", tableName);
+                sql = string.Format("CREATE TABLE `{0}` (`Id` int(11) NOT NULL AUTO_INCREMENT,`TableId` int(11) DEFAULT NULL,`EnTableName` varchar(255) DEFAULT NULL,`CnTableName` varchar(255) DEFAULT NULL,`Field` varchar(255) DEFAULT NULL,`Type` varchar(255) DEFAULT NULL,`Name` varchar(255) DEFAULT NULL,`Remark` varchar(255) DEFAULT NULL,`CreateTime` datetime DEFAULT NULL,`ReviseTime` datetime DEFAULT NULL,`IsPass` int(255) DEFAULT '0',`IsDelete` int(255) DEFAULT NULL,`AuditorId` int(255) DEFAULT NULL,`AuditorName` varchar(255) DEFAULT NULL,`AuditorIp` varchar(255) DEFAULT NULL,`AuditorMac` varchar(255) DEFAULT NULL,`PassTime` datetime DEFAULT NULL,`SubmitterId` int(255) DEFAULT NULL,`SubmitterName` varchar(255) DEFAULT NULL,`SubmitterIp` varchar(255) DEFAULT NULL,`SubmitterMac` varchar(255) DEFAULT NULL,`SubmitTime` datetime DEFAULT NULL,PRIMARY KEY (`Id`)) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=gbk;", tableName);
                 //  sql = string.Format("CREATE TABLE `{0}` (`Id` int(11) NOT NULL AUTO_INCREMENT,`TableId` int(11) DEFAULT NULL,`EnTableName` varchar(255) DEFAULT NULL,`CnTableName` varchar(255) DEFAULT NULL,`Field` varchar(255) DEFAULT NULL,`Type` varchar(255) DEFAULT NULL,`Name` varchar(255) DEFAULT NULL,`Remark` varchar(255) DEFAULT NULL,`IsDelete` varchar(255) DEFAULT NULL,`CreateTime` datetime DEFAULT NULL,`ReviseTime` datetime DEFAULT NULL,PRIMARY KEY(`Id`)) ENGINE = MyISAM AUTO_INCREMENT = 3771 DEFAULT CHARSET = gbk;", tableName);
             }
             return hwdal.SQL(sql);
@@ -48,6 +48,24 @@ namespace GetDBInfo.BLL
         public DataTable SelectAll()
         {
             return hwdal.SelectAll();
+        }
+
+        /// <summary>
+        /// 获取表中部分的数据
+        /// </summary>
+        /// <returns></returns>
+        public DataTable SelectPart(int page, int pagesize)
+        {
+            return hwdal.SelectPart(page, pagesize);
+        }
+
+        /// <summary>
+        /// 获取表中部分的数据
+        /// </summary>
+        /// <returns></returns>
+        public DataTable SelectSingle(string tablename)
+        {
+            return hwdal.SelectSingle(tablename);
         }
 
         /// <summary>
@@ -76,8 +94,6 @@ namespace GetDBInfo.BLL
         {
             return hwdal.FindMaxBytid();
         }
-
-
 
         /// <summary>
         /// 更新数据

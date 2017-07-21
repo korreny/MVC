@@ -10,7 +10,7 @@ namespace GetDBInfo.DataMap.ORM
         /// </summary>
         public string ColumnName { set; get; }
 
-        public DataFieldAttribute(string columnName)
+         public DataFieldAttribute(string columnName)
         {
             ColumnName = columnName;
         }

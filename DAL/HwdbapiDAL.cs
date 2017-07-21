@@ -10,7 +10,6 @@ using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using com.iflysse.helper;
 using Table.Common;
-
 namespace GetDBInfo.DAL
 {
     /// <summary>
@@ -23,8 +22,11 @@ namespace GetDBInfo.DAL
         static string ConnectionString = "server = " + ConfigurationManager.AppSettings["ResultDBIP"] + "; user id = " + ConfigurationManager.AppSettings["ResultDBUid"] + "; password = " + ConfigurationManager.AppSettings["ResultDBPwd"] + "; database = " + ConfigurationManager.AppSettings["ResultDBName"] + "";
         Table.Common.MySQLHelper mysql = new Table.Common.MySQLHelper(ConnectionString);
         DBHeper sqlserver = new DBHeper(ConnectionString);
-        //string outTableName;//= ConfigurationManager.AppSettings["ResultTableName"];
 
+         /// <summary>
+        /// 获取表中全部的数据
+        /// </summary>
+        /// <returns></returns>
         public DataTable SelectAll()
         {
             string sql = string.Format(@"select * from {0}", ConfigurationManager.AppSettings["ResultTableName"]);
@@ -44,6 +46,55 @@ namespace GetDBInfo.DAL
                 }
             }
         }
+
+        /// <summary>
+        /// 获取表中部分的数据
+        /// </summary>
+        /// <returns></returns>
+        public DataTable SelectPart(int page, int pagesize)
+        {
+            string sql = string.Format(@"select * from {0} where TableId>={1} and TableId<={2}", ConfigurationManager.AppSettings["ResultTableName"], page, pagesize);
+            if (Convert.ToInt32(ConfigurationManager.AppSettings["ResultDBType"]) == 1)
+            {
+                return sqlserver.Select(sql);
+            }
+            else
+            {
+                try
+                {
+                    return mysql.Query(sql);
+                }
+                catch (Exception e)
+                {
+                    return null;
+                }
+            }
+        }
+
+        /// <summary>
+        /// 获取表中单个的数据
+        /// </summary>
+        /// <returns></returns>
+        public DataTable SelectSingle(string tablename) 
+        {
+            string sql = string.Format(@"select * from {0} where EnTableName = '{1}'", ConfigurationManager.AppSettings["ResultTableName"], tablename);
+            if (Convert.ToInt32(ConfigurationManager.AppSettings["ResultDBType"]) == 1)
+            {
+                return sqlserver.Select(sql);
+            }
+            else
+            {
+                try
+                {
+                    return mysql.Query(sql);
+                }
+                catch (Exception e)
+                {
+                    return null;
+                }
+            }
+        }
+
         /// <summary>
         /// 插入
         /// </summary>
@@ -267,7 +318,7 @@ namespace GetDBInfo.DAL
         /// <returns></returns>
         public int? SetDel(string tableName)
         {
-            string sql = string.Format(@"update  {2} set isdelete='1' ,ReviseTime='{1}' where entablename='{0}' ", tableName, DateTime.Now, ConfigurationManager.AppSettings["ResultTableName"]);
+            string sql = string.Format(@"update  {2} set isdelete='1' ,ReviseTime='{1}' where entablename='{0}' ", tableName, DateToString.Tostr(DateTime.Now), ConfigurationManager.AppSettings["ResultTableName"]);
             if (Convert.ToInt32(ConfigurationManager.AppSettings["ResultDBType"]) == 1)
             {
                 try

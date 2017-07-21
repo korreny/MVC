@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateToString.cs" />
     <Compile Include="ProMaintain.cs" />
     <Compile Include="SendMeail.cs" />
     <Compile Include="TaskAction.cs" />
