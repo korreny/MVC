@@ -22,7 +22,7 @@ namespace GetDBInfo.DataMap.ORM.Entity
         public string CnTableName { set; get; }
 
         [DataField("Field")]
-        public string Fieldv { set; get; }
+        public string Field { set; get; }
 
         [DataField("Type")]
         public string Type { set; get; }

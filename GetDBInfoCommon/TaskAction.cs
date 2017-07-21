@@ -41,7 +41,7 @@ namespace GetDBInfo.Common
         /// <param name="e"></param>
         public static void SetContent(object source, System.Timers.ElapsedEventArgs e)
         {
-
+         
             if (DateTime.Now.ToString("HH:mm:ss") == StratTime)
             {
                 DateTime startTime = DateTime.Now;

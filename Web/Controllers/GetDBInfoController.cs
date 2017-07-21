@@ -9,6 +9,7 @@ using GetDBInfo.BLL;
 using System.Data;
 using GetDBInfo.DataMap.ORM;
 using GetDBInfo.DataMap.ORM.Entity;
+using GetDBInfo.Models;
 
 namespace GetDBInfo.Controllers
 {
@@ -42,11 +43,11 @@ namespace GetDBInfo.Controllers
             Hwdbapi hw = new Hwdbapi();
             List<Hwdbapi> list = new List<Hwdbapi>();
             DataTable dt = new DataTable();
-
+            List<Models.GetInfo> infoResList = new List<Models.GetInfo>();
             // 处理过滤条件
             if (tablename == null && page == 0 && pagesize == 0)
             {
-               // 获取表中所有表的数据
+                // 获取表中所有表的数据
                 dt = hwbll.SelectAll();
             }
             else if (tablename == null)
@@ -60,18 +61,49 @@ namespace GetDBInfo.Controllers
                 dt = hwbll.SelectSingle(tablename);
             }
             var temp = DataConvert<hwdbapiEntity>.ToList(dt);
-
-
-            foreach (var t in temp)
+            #region 对表做处理
+            try
             {
-                hw = t;
-                list.Add(hw);
+                for (int i = 0; i < temp.Count; i++)
+                {
+                    Models.GetInfo tt = new Models.GetInfo();
+                    if (tt.TableName != temp[i].EnTableName)
+                    {
+                        try
+                        {
+                            List<Fieid> fieidlist = new List<Fieid>();
+                            tt.TableName = temp[i].EnTableName;
+                            for (; tt.TableName == temp[i].EnTableName; i++)
+                            {
+                                Fieid fieid = new Fieid();
+                                fieid.Fieidname = temp[i].Field;
+                                fieid.Fieidtype = temp[i].Type;
+                                fieid.Fieidmean = "暂时未设置";
+                                fieidlist.Add(fieid);
+                            }
+                            tt.Field = fieidlist;
+                            infoResList.Add(tt);
+                        }
+                        catch (System.ArgumentOutOfRangeException e)
+                        {
+                            //下标越界,表示当前表结束
+                            break;
+                        }
+                    }
+                }
+            }catch(System.NullReferenceException e)
+            {
+                //数据为空
+                infoResList = null;
+                //return 
             }
+
+            #endregion
             WebApi _webApi = new WebApi
             {
                 Code = 1,
                 Msg = "Request Success!",
-                Data = list
+                Data = infoResList
             };
             return _webApi;
         }

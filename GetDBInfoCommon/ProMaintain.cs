@@ -21,15 +21,22 @@ namespace GetDBInfo.Common
         public static void Writelog(string content)
         {
             string path = ConfigurationManager.AppSettings["LogPath"];
-            FileStream fs = new FileStream(path, FileMode.Append);
-            StreamWriter sw = new StreamWriter(fs);
-            //开始写入
-            sw.Write(content+"\r\n");
-            //清空缓冲区
-            sw.Flush();
-            //关闭流
-            sw.Close();
-            fs.Close();
+            try
+            {
+                FileStream fs = new FileStream(path, FileMode.Append);
+                StreamWriter sw = new StreamWriter(fs);
+                //开始写入
+                sw.Write(content + "\r\n");
+                //清空缓冲区
+                sw.Flush();
+                //关闭流
+                sw.Close();
+                fs.Close();
+            }
+            catch(System.IO.DirectoryNotFoundException ex)
+            {
+                //日志文件路径出错
+            }
         }
         #endregion
 

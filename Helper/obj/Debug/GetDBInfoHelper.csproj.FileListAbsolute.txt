@@ -8,7 +8,6 @@ E:\IDM下载\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.pdb
 E:\IDM下载\MVC-mvcbranch\Helper\bin\Debug\MySql.Data.dll
 E:\IDM下载\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.dll
 E:\IDM下载\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.pdb
-E:\C#\MVC-mvcbranch\Helper\obj\Debug\GetDBInfoHelper.csprojResolveAssemblyReference.cache
 E:\C#\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.dll
 E:\C#\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.pdb
 E:\C#\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.dll
@@ -24,3 +23,4 @@ E:\QQ接收文件\MVC-mvcbranch(1)\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.he
 E:\QQ接收文件\MVC-mvcbranch(1)\MVC-mvcbranch\Helper\bin\Debug\com.iflysse.helper.pdb
 E:\QQ接收文件\MVC-mvcbranch(1)\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.dll
 E:\QQ接收文件\MVC-mvcbranch(1)\MVC-mvcbranch\Helper\obj\Debug\com.iflysse.helper.pdb
+E:\C#\MVC-mvcbranch\Helper\obj\Debug\GetDBInfoHelper.csprojResolveAssemblyReference.cache

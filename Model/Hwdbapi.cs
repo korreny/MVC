@@ -220,7 +220,7 @@ namespace GetDBInfo.Model
             t.CnTableName = v.CnTableName;
             t.CreateTime = v.CreateTime;
             t.EnTableName = v.EnTableName;
-            t.Field = v.Fieldv;
+            t.Field = v.Field;
             t.Id = v.Id;
             t.IsDelete = v.IsDelete;
             t.IsPass = v.IsPass;

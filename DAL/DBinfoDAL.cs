@@ -65,8 +65,6 @@ namespace GetDBInfo.DAL
                     System.Data.DataTable dt = conn.GetSchema("Tables", null);
                     conn.Close();
                     return dt;
-               
-              
             }
         }
         /// <summary>

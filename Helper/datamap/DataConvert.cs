@@ -60,11 +60,19 @@ namespace GetDBInfo.DataMap.ORM
         /// <returns></returns>
         public static List<T> ToList(DataTable dt)
         {
-            List<T> list = new List<T>(dt.Rows.Count);
-            foreach (DataRow dr in dt.Rows)
+            List<T> list = new List<T>();
+            try
             {
-                list.Add(ToEntity(dr));
+                list = new List<T>(dt.Rows.Count);
+                foreach (DataRow dr in dt.Rows)
+                {
+                    list.Add(ToEntity(dr));
+                }
+            }catch(System.NullReferenceException ex)
+            {
+                return null;
             }
+           
             return list;
         }
     }
