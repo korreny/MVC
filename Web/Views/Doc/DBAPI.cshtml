@@ -1,0 +1,71 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../../Content/css/doc/DocAPI.css" rel="stylesheet" />
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <title>作业平台数据库说明文档</title>
+    <script type="text/javascript"></script>
+   <script >
+       $(function () {
+           var divName = "content";
+           var tableName = "tablecreate";
+           var tableindex = 1;
+               $.ajax({
+                   url: "http://localhost:55039/jcservice/getdbinfo?tablename=&page=1&pagesize=5",
+                   type:'GET',
+                   dataType:'json',
+                   success: function (data)
+                   {
+                       $.each(data.Data, function (i, item) {
+                           divName += tableindex.toString();
+                           tableName += tableindex.toString();
+                           tableindex++;
+                             addDiv(divName, tableName);
+                           $.each(item.Field, function (j, jtem) {
+                               jtem.Fieidname;
+                               jtem.Fieidname;
+                               jtem.Fieidtype;
+                               $("#"+tableName).append('<tr><td>字段&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidname + '</a></td><td>类型&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidtype + '</td><td>表名&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + item.TableName + '</td><td>备注&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidmean + '</td></tr>');
+                           })
+                       });
+
+                   },error()
+                   {
+                       alert("连接失败");
+                   }
+               });
+           });
+       function addDiv(divName, tableName)
+       {
+           $("#form1").append('<div class="content" id="' + divName + '"><div class="title"><p class="Atitle">DataBase API</p></div><table id="'+tableName+'"><tr class="trbox"><td colspan="2" class="trtitle">guser</td><td colspan="2" class="trtitle">用户信息表</td></tr></table></div>')
+           $("#form1").append('<div class="fill"><p>&nbsp;</p><p>&nbsp;</p></div>');
+       }
+    </script>
+</head>
+<body>
+    <div>
+        <form id="form1">
+            <!--顶部 开始-->
+            <div class="top">
+                <p>API Docs</p>
+            </div>
+            <!--顶部 结束-->
+            <!--头部  开始-->
+            <div class="head">
+                <img src="../../Images/Doc/banner.jpg" />
+            </div>
+            <!--头部  结束-->
+            <!--内容  开始-->
+            <!--内容  结束-->
+            <!--底部  开始-->
+            <!--<div class="foot"></div>-->
+            <!--底部  结束-->
+        </form>
+    </div>
+</body>
+</html>

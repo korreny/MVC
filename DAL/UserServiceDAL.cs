@@ -29,7 +29,16 @@ namespace GetDBInfo.DAL
                 User.Account, User.Password);
 
             //Get information from database
-            DataTable data = MySQLHelper.Query(sql);
+            DataTable data = new DataTable();
+            try
+            {
+                data = MySQLHelper.Query(sql);
+            }catch(MySql.Data.MySqlClient.MySqlException)
+            {
+                //数据库连接异常
+                return null;
+            }
+             
             //If data is loaded into the User object DataTable
             if (data.Rows.Count > 0)
             {

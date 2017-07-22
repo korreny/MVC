@@ -17,6 +17,13 @@ namespace GetDBInfo.Controllers
         // GET: /Doc/
         public ActionResult Index()
         {
+            //HwdbapiBLL hwbll = new HwdbapiBLL();
+            //Hwdbapi hw = new Hwdbapi();
+            //List<Hwdbapi> list = new List<Hwdbapi>();
+            //DataTable dt = new DataTable();
+            //List<Models.GetInfo> infoResList = new List<Models.GetInfo>();
+            //var temp = DataConvert<hwdbapiEntity>.ToList(dt);
+
             return View("DBAPI");
         }
     }

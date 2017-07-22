@@ -28,7 +28,7 @@ namespace com.iflysse.helper
                     MySqlDataAdapter command = new MySqlDataAdapter(SQLString, connection);
                     command.Fill(ds);
                 }
-                catch (System.Data.SqlClient.SqlException ex)
+                catch (MySql.Data.MySqlClient.MySqlException ex)
                 {
                     throw new Exception(ex.Message);
                 }
@@ -57,7 +57,7 @@ namespace com.iflysse.helper
                         int rows = cmd.ExecuteNonQuery();
                         return rows > 0;
                     }
-                    catch (System.Data.SqlClient.SqlException e)
+                    catch (MySql.Data.MySqlClient.MySqlException e)
                     {
                         connection.Close();
                         throw e;

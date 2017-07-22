@@ -34,7 +34,7 @@ namespace GetDBInfo.Controllers
         /// </summary>
         /// <returns></returns>
 
-
+  
         //GET api/User/?username=xx
         public WebApi GetInfoByTableName(string tablename, int page, int pagesize)
         {
@@ -64,7 +64,7 @@ namespace GetDBInfo.Controllers
             #region 对表做处理
             try
             {
-                for (int i = 0; i < temp.Count; i++)
+                for (int i = 0;  i < temp.Count;)
                 {
                     Models.GetInfo tt = new Models.GetInfo();
                     if (tt.TableName != temp[i].EnTableName)
@@ -81,6 +81,7 @@ namespace GetDBInfo.Controllers
                                 fieid.Fieidmean = "暂时未设置";
                                 fieidlist.Add(fieid);
                             }
+                            
                             tt.Field = fieidlist;
                             infoResList.Add(tt);
                         }

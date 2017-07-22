@@ -24,7 +24,14 @@ namespace GetDBInfo.BLL
         /// <returns></returns>
         public User UserLogin(User user)
         {
-            return new UserServiceDAL().UserLogin(user);
+            try
+            {
+                return new UserServiceDAL().UserLogin(user);
+
+            }catch(Exception ex)
+            {
+                return new User();
+            }
         }
     }
 }
