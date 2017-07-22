@@ -78,7 +78,7 @@ namespace GetDBInfo.Controllers
                                 Fieid fieid = new Fieid();
                                 fieid.Fieidname = temp[i].Field;
                                 fieid.Fieidtype = temp[i].Type;
-                                fieid.Fieidmean = "暂时未设置";
+                                fieid.Fieidmean = "null";
                                 fieidlist.Add(fieid);
                             }
                             

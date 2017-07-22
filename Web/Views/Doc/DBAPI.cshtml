@@ -25,12 +25,10 @@
                            divName += tableindex.toString();
                            tableName += tableindex.toString();
                            tableindex++;
-                             addDiv(divName, tableName);
+                           addDiv(divName, tableName, item.TableName, "null", "null");
+                          // alert("sa");
                            $.each(item.Field, function (j, jtem) {
-                               jtem.Fieidname;
-                               jtem.Fieidname;
-                               jtem.Fieidtype;
-                               $("#"+tableName).append('<tr><td>字段&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidname + '</a></td><td>类型&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidtype + '</td><td>表名&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + item.TableName + '</td><td>备注&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidmean + '</td></tr>');
+                               $("#" + tableName).append('<tr><td>字段&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidname + '</a></td><td>类型&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidtype + '</td><td>字段名&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;null</td><td>备注&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;' + jtem.Fieidmean + '</td></tr>');
                            })
                        });
 
@@ -40,9 +38,11 @@
                    }
                });
            });
-       function addDiv(divName, tableName)
+       function addDiv(divName, tableName,entname,cntname,remake)
        {
-           $("#form1").append('<div class="content" id="' + divName + '"><div class="title"><p class="Atitle">DataBase API</p></div><table id="'+tableName+'"><tr class="trbox"><td colspan="2" class="trtitle">guser</td><td colspan="2" class="trtitle">用户信息表</td></tr></table></div>')
+          // alert(divName + "*" + tableName + "*" + entname + "*" + cntname+"*"+remake);
+          // $("#form1").append('<div class="content" id="' + divName + '"><div class="title"><p class="Atitle">' + dbtname + '</p></div><table id="'+tableName +'"><tr class="trbox"><td colspan="2" class="trtitle">表名:</td><td colspan="2" class="trtitle">表的备注:'+remake+'</td></tr></table></div>');
+           $("#form1").append('<div class="content" id="' + divName + '"><div class="title"><p class="Atitle">' + entname + '</p></div><table id="' + tableName + '"><tr class="trbox"><td colspan="2" class="trtitle">表名:&nbsp;&nbsp;' + cntname + '</td><td colspan="2" class="trtitle">表的备注:&nbsp;&nbsp;' + remake + '</td></tr></table></div>')
            $("#form1").append('<div class="fill"><p>&nbsp;</p><p>&nbsp;</p></div>');
        }
     </script>
